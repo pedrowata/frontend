@@ -1,8 +1,10 @@
+import styles from '@/styles/Broker.module.css'
+
 export default function ListarDispositivo(){
     return(
-        <fieldset className="divs">
+        <fieldset className={styles.divs}>
                 <div>
-                    <label className="nomes">Dispositivo ux-776</label>
+                    <label className={styles.nomes}>Dispositivo ux-776</label>
                 </div>
                 <div>
                     <button><img src="/images/lixo.png" /></button>
